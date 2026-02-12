@@ -34,4 +34,4 @@ Published by [VettID](https://github.com/vettid) — February 2026
 
 ## License
 
-Copyright 2026 VettID. All rights reserved.
+This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE).
