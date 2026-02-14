@@ -14,7 +14,7 @@
 
 **[Read Zero-Knowledge Trust (Markdown)](zero-knowledge-trust.md)**
 
-Also available as a [Word document](zero-knowledge-trust.docx) for offline reading.
+Also available as a [PDF](zero-knowledge-trust.pdf) or [Word document](zero-knowledge-trust.docx) for offline reading.
 
 ## About
 
