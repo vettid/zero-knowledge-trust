@@ -25,7 +25,7 @@ The paper covers:
 - **The Trust Paradox** — Why current zero-trust architectures break down in agentic environments
 - **The Security Model Landscape** — How zero trust and zero knowledge compare and where they fall short
 - **Core Principles** — The five architectural principles of Zero-Knowledge Trust
-- **Why It's Inevitable** — Five converging forces making this evolution unavoidable
+- **Why It's Inevitable** — Six converging forces making this evolution unavoidable
 - **The Path Forward** — Three implementation tiers from hardware-isolated execution to local keystores
 
 ## Author
