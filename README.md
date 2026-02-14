@@ -10,11 +10,17 @@
 >
 > *Zero-Knowledge Trust says: "Verify everything. Expose nothing. Trust no one—not even the platform."*
 
-## Read the Paper
+## Read the Papers
 
 **[Read Zero-Knowledge Trust (Markdown)](zero-knowledge-trust.md)**
 
 Also available as a [PDF](zero-knowledge-trust.pdf) or [Word document](zero-knowledge-trust.docx) for offline reading.
+
+**[Read The Vine and the Trellis (Markdown)](vine-and-trellis.md)**
+
+*A simple way to understand the future of security — no jargon, no acronyms, just a story about how security should actually work.*
+
+Also available as a [PDF](vine-and-trellis.pdf) or [Word document](vine-and-trellis.docx) for offline reading.
 
 ## About
 
