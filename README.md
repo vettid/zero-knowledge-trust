@@ -32,13 +32,27 @@ Also available as a [PDF](breaking-zkt.pdf) or [Word document](breaking-zkt.docx
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
 
-The paper covers:
+**Zero-Knowledge Trust** covers:
 
 - **The Trust Paradox** — Why current zero-trust architectures break down in agentic environments
 - **The Security Model Landscape** — How zero trust and zero knowledge compare and where they fall short
 - **Core Principles** — The five architectural principles of Zero-Knowledge Trust
 - **Why It's Inevitable** — Six converging forces making this evolution unavoidable
 - **The Path Forward** — Three implementation tiers from hardware-isolated execution to local keystores
+
+**The Vine and the Trellis** covers:
+
+- **The Root** — Your personal vault as the secure starting point for everything you do online
+- **The Vine** — How each connection grows as an independent, prunable tendril
+- **The Trellis** — Why infrastructure supports your connections but never sees what flows through them
+- **Grafting** — How AI agents get scoped, time-limited access without ever seeing your keys
+- **The Vineyard** — Why this model eliminates catastrophic breaches at scale
+
+**Breaking Zero-Knowledge Trust** covers:
+
+- **Twelve adversarial challenges** — Performance, key management, enterprise migration, auditability, endpoint security, cryptographic complexity, availability, FHE, government mandates, social engineering, developer trust, and real-world adoption
+- **Architectural responses** — Why each challenge is either solved by design, manageable through engineering, or applies more severely to the alternatives
+- **Final assessment** — No fundamental architectural flaw identified; the model gets stronger the harder you push on it
 
 ## Author
 
