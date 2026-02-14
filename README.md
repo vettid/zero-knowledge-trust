@@ -22,6 +22,12 @@ Also available as a [PDF](zero-knowledge-trust.pdf) or [Word document](zero-know
 
 Also available as a [PDF](vine-and-trellis.pdf) or [Word document](vine-and-trellis.docx) for offline reading.
 
+**[Read Breaking Zero-Knowledge Trust (Markdown)](breaking-zkt.md)**
+
+*An adversarial analysis — twelve challenges designed to destroy the Zero-Knowledge Trust model, and why each one fails.*
+
+Also available as a [PDF](breaking-zkt.pdf) or [Word document](breaking-zkt.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
