@@ -28,6 +28,18 @@ Also available as a [PDF](vine-and-trellis.pdf) or [Word document](vine-and-trel
 
 Also available as a [PDF](breaking-zkt.pdf) or [Word document](breaking-zkt.docx) for offline reading.
 
+**[Read The Individual Is the Infrastructure (Markdown)](individual-is-infrastructure.md)**
+
+*Why digital sovereignty begins with the person — and why nations that deny it will fall behind.*
+
+Also available as a [PDF](individual-is-infrastructure.pdf) or [Word document](individual-is-infrastructure.docx) for offline reading.
+
+**[Read The Vine Strengthens the Trellis (Markdown)](vine-strengthens-trellis.md)**
+
+*How Zero-Knowledge Trust grows through the infrastructure you already have — a four-part series covering blockchain wallets, OAuth tokens, IoT devices, and payment systems.*
+
+Also available as a [PDF](vine-strengthens-trellis.pdf) or [Word document](vine-strengthens-trellis.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -53,6 +65,21 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Twelve adversarial challenges** — Performance, key management, enterprise migration, auditability, endpoint security, cryptographic complexity, availability, FHE, government mandates, social engineering, developer trust, and real-world adoption
 - **Architectural responses** — Why each challenge is either solved by design, manageable through engineering, or applies more severely to the alternatives
 - **Final assessment** — No fundamental architectural flaw identified; the model gets stronger the harder you push on it
+
+**The Individual Is the Infrastructure** covers:
+
+- **The empirical record** — Catastrophic failures of centralized identity systems across the US, India, Estonia, Brazil, and Australia
+- **The mathematical case** — Why sovereign vaults invert the economics of attack, making population-scale breaches architecturally impossible
+- **The agentic amplifier** — Why autonomous AI agents make centralized credential systems the most dangerous single points of failure in history
+- **The economic divergence** — How digital sovereignty enables participation in the global agentic economy
+- **The human rights architecture** — How cryptography converts digital rights from institutional permissions into mathematical facts
+
+**The Vine Strengthens the Trellis** covers:
+
+- **Blockchain & Web3 Wallets** — Hardware-secured keys that eliminate seed phrases and make wallet recovery simple
+- **OAuth & Token Security** — Cryptographically bound tokens that are useless to anyone who intercepts them
+- **IoT & Edge Devices** — One root per device, eliminating default passwords and containing compromise to a single vine
+- **Payment Systems** — Payment credentials that travel through the chain encrypted, visible only to your bank
 
 ## Author
 
