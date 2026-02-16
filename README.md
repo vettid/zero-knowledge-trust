@@ -46,6 +46,12 @@ Also available as a [PDF](vine-strengthens-trellis.pdf) or [Word document](vine-
 
 Also available as a [PDF](security-tax.pdf) or [Word document](security-tax.docx) for offline reading.
 
+**[Read The Trust Barrier (Markdown)](trust-barrier.md)**
+
+*Why AI apps need a LEASH — and how it unlocks the next great wave of innovation.*
+
+Also available as a [PDF](trust-barrier.pdf) or [Word document](trust-barrier.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -95,6 +101,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The structural alternative** — How ZKT eliminates entire categories of security tooling by removing the root cause
 - **Seven billion security analysts** — How every user becomes a security sensor with perfect context for their own activity
 - **A message to the industry** — How SIEM, identity, endpoint, cloud, compliance, and managed security vendors can lead the transition
+
+**The Trust Barrier** covers:
+
+- **The trust barrier** — Why users hesitate to connect AI apps to their real accounts, and why developers can't afford to hold credentials responsibly
+- **The app store lesson** — How Apple's sandboxing solved the same problem for mobile and created an innovation explosion
+- **LEASH protocol** — Lightweight Encrypted Agent Secret Handling: apps use credentials without seeing them via scoped, time-limited tendrils
+- **The developer liberation** — How eliminating credential storage removes the most expensive part of building AI apps
+- **The experimentation economy** — What happens when trying ten AI apps in a day carries no permanent risk
+- **The enterprise unlock** — How policy-based trellis boundaries replace six-month vendor security reviews
 
 ## Author
 
