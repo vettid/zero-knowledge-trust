@@ -40,6 +40,12 @@ Also available as a [PDF](individual-is-infrastructure.pdf) or [Word document](i
 
 Also available as a [PDF](vine-strengthens-trellis.pdf) or [Word document](vine-strengthens-trellis.docx) for offline reading.
 
+**[Read The Security Tax (Markdown)](security-tax.md)**
+
+*Why the cybersecurity industry is collapsing under its own weight — what replaces it — and how the industry can thrive.*
+
+Also available as a [PDF](security-tax.pdf) or [Word document](security-tax.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -80,6 +86,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **OAuth & Token Security** — Cryptographically bound tokens that are useless to anyone who intercepts them
 - **IoT & Edge Devices** — One root per device, eliminating default passwords and containing compromise to a single vine
 - **Payment Systems** — Payment credentials that travel through the chain encrypted, visible only to your bank
+
+**The Security Tax** covers:
+
+- **The weight** — Why 60–80 security tools per enterprise produce worse outcomes at higher cost
+- **The tax nobody can afford** — How the current model prices small and mid-size businesses out of protection
+- **The speed mismatch** — Why AI-driven attacks at machine speed outpace human-driven defense
+- **The structural alternative** — How ZKT eliminates entire categories of security tooling by removing the root cause
+- **Seven billion security analysts** — How every user becomes a security sensor with perfect context for their own activity
+- **A message to the industry** — How SIEM, identity, endpoint, cloud, compliance, and managed security vendors can lead the transition
 
 ## Author
 
