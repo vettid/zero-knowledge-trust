@@ -58,6 +58,12 @@ Also available as a [PDF](trust-barrier.pdf) or [Word document](trust-barrier.do
 
 Also available as a [PDF](happy-little-accidents.pdf) or [Word document](happy-little-accidents.docx) for offline reading.
 
+**[Read No Magic Required (Markdown)](no-magic-required.md)**
+
+*How Zero-Knowledge Trust actually works — and why every piece has been battle-tested for years.*
+
+Also available as a [PDF](no-magic-required.pdf) or [Word document](no-magic-required.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -128,6 +134,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Displaced identity** — Vault recovery from memory alone, so refugees can prove who they are without documents
 - **Source protection** — Whistleblower credibility verified by math, not protected by promises
 - **Portable reputation** — Professional history you own and carry across platforms
+
+**No Magic Required** covers:
+
+- **The building blocks** — Every primitive named: X25519, XChaCha20-Poly1305, Ed25519, Argon2id, HKDF, TLS 1.3, AWS Nitro Enclaves, HMAC-SHA256
+- **The Protean Credential** — How your credential changes shape after every single use, making stolen copies worthless
+- **Two factors, two purposes** — Why PIN and password protect different layers and neither can be stolen as a hash
+- **The hardware guarantee** — How Nitro Enclaves, attestation, and sealed storage prevent even the operator from accessing secrets
+- **Compared to what** — Why ZKT's trust surface is dramatically smaller than the current model's
+- **What could go wrong** — Honest assessment of device compromise, enclave vulnerabilities, and device loss recovery
 
 ## Author
 
