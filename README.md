@@ -52,6 +52,12 @@ Also available as a [PDF](security-tax.pdf) or [Word document](security-tax.docx
 
 Also available as a [PDF](trust-barrier.pdf) or [Word document](trust-barrier.docx) for offline reading.
 
+**[Read Happy Little Accidents (Markdown)](happy-little-accidents.md)**
+
+*The unexpected things that happen when you give people sovereignty over their own digital lives.*
+
+Also available as a [PDF](happy-little-accidents.pdf) or [Word document](happy-little-accidents.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -110,6 +116,18 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The developer liberation** — How eliminating credential storage removes the most expensive part of building AI apps
 - **The experimentation economy** — What happens when trying ten AI apps in a day carries no permanent risk
 - **The enterprise unlock** — How policy-based trellis boundaries replace six-month vendor security reviews
+
+**Happy Little Accidents** covers:
+
+- **A keychain, not a filing cabinet** — Why the vault holds keys, not data, and why that distinction makes everything else possible
+- **Voting** — Secret ballots that are independently verifiable through zero-knowledge proofs
+- **Medical records** — Patient-held keys that dissolve the interoperability problem healthcare IT has spent billions on
+- **Selective disclosure** — Prove you're over 21 without showing your address, name, or license number
+- **GDPR by architecture** — Privacy compliance as a system property rather than a policy to enforce
+- **Digital inheritance** — A recoverable keychain that lets executors access every digital relationship
+- **Displaced identity** — Vault recovery from memory alone, so refugees can prove who they are without documents
+- **Source protection** — Whistleblower credibility verified by math, not protected by promises
+- **Portable reputation** — Professional history you own and carry across platforms
 
 ## Author
 
