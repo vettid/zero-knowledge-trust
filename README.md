@@ -64,6 +64,12 @@ Also available as a [PDF](happy-little-accidents.pdf) or [Word document](happy-l
 
 Also available as a [PDF](no-magic-required.pdf) or [Word document](no-magic-required.docx) for offline reading.
 
+**[Read Better Security With One Simple Trick (Markdown)](one-simple-trick.md)**
+
+*You asked the right questions. Why did you stop?*
+
+Also available as a [PDF](one-simple-trick.pdf) or [Word document](one-simple-trick.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -143,6 +149,14 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The hardware guarantee** — How Nitro Enclaves, attestation, and sealed storage prevent even the operator from accessing secrets
 - **Compared to what** — Why ZKT's trust surface is dramatically smaller than the current model's
 - **What could go wrong** — Honest assessment of device compromise, enclave vulnerabilities, and device loss recovery
+
+**Better Security With One Simple Trick** covers:
+
+- **The city hall problem** — Why storing everyone's keys in one place guarantees catastrophic breaches, and what happens when homeowners keep their own
+- **The five questions** — How zero-trust organizations answered four questions correctly and never asked the fifth: should you trust the server with the plaintext?
+- **The builder's blind spot** — Why service builders naturally think from the provider's perspective, and what changes when you shift the subject of the sentence
+- **How to get there from here** — A four-layer incremental transition: identify what hurts, externalize secrets, replace bearer tokens, let architecture handle compliance
+- **The cascade** — Why credential theft, breach response, password reuse, data portability, agent security, and compliance are all one problem viewed from the wrong direction
 
 ## Author
 
