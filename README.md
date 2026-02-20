@@ -70,6 +70,12 @@ Also available as a [PDF](no-magic-required.pdf) or [Word document](no-magic-req
 
 Also available as a [PDF](one-simple-trick.pdf) or [Word document](one-simple-trick.docx) for offline reading.
 
+**[Read How the Vine Actually Grows (Markdown)](vine-mechanics.md)**
+
+*A connection is not a link. It is a growth path.*
+
+Also available as a [PDF](vine-mechanics.pdf) or [Word document](vine-mechanics.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -157,6 +163,14 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The builder's blind spot** — Why service builders naturally think from the provider's perspective, and what changes when you shift the subject of the sentence
 - **How to get there from here** — A four-layer incremental transition: identify what hurts, externalize secrets, replace bearer tokens, let architecture handle compliance
 - **The cascade** — Why credential theft, breach response, password reuse, data portability, agent security, and compliance are all one problem viewed from the wrong direction
+
+**How the Vine Actually Grows** covers:
+
+- **The gradual path** — How a medical records system connects on day one with authentication and grows to full user sovereignty over time
+- **The universal pattern** — Start with authentication, grow the connection, arrive at sovereignty — applied to banking, HR, crypto, retail, and AI agents
+- **Who I am, what I have, what I can do** — The three things you see when you look at your vault: identity, inventory, and capabilities per connection
+- **Branches keep it manageable** — How organizing your vine into financial, professional, personal, and healthcare branches keeps the root lean
+- **The vault provider ecosystem** — Why ZKT is an open pattern that enables specialized providers for healthcare, finance, enterprise, and beyond
 
 ## Author
 
