@@ -82,6 +82,12 @@ Also available as a [PDF](vine-mechanics.pdf) or [Word document](vine-mechanics.
 
 Also available as a [PDF](branches-and-gateways.pdf) or [Word document](branches-and-gateways.docx) for offline reading.
 
+**[Read The Shared Table (Markdown)](shared-table.md)**
+
+*How vault storage works, from personal namespaces to shared sandboxes.*
+
+Also available as a [PDF](shared-table.pdf) or [Word document](shared-table.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -186,6 +192,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Bring your own identity** — How employees connect to an employer's vault with their own identity and take it with them when they leave
 - **The long branch** — How a signing request from a legal service three hops away finds your vault through existing connections
 - **Services grow too** — How retailers, enterprises, and platforms start as gateways and graduate to full vaults as the vine connection deepens
+
+**The Shared Table** covers:
+
+- **Event-driven vault model** — How the vault manager receives events, invokes handlers, and reads/writes to an encrypted database inside the enclave
+- **Namespaces** — Personal, system, and per-connection namespaces that isolate data like rooms in a building with separate locks
+- **Transparent vs. opaque data** — Two kinds of contents in a connection namespace: data you own and control vs. data the service needs for its operations
+- **The shared sandbox** — One table in one vault, accessible to both parties — no replication, no sync conflicts, no ambiguity about which copy is authoritative
+- **Your toys, my toys, our table** — Private areas for each party plus a mutual area with per-item, contract-governed sharing
+- **Doctor, employer, transaction** — How the namespace model works for healthcare, employment, and buyer-seller relationships
 
 ## Author
 
