@@ -88,6 +88,12 @@ Also available as a [PDF](branches-and-gateways.pdf) or [Word document](branches
 
 Also available as a [PDF](shared-table.pdf) or [Word document](shared-table.docx) for offline reading.
 
+**[Read The Contract (Markdown)](the-contract.md)**
+
+*Not a promise. A program.*
+
+Also available as a [PDF](the-contract.pdf) or [Word document](the-contract.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -201,6 +207,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The shared sandbox** — One table in one vault, accessible to both parties — no replication, no sync conflicts, no ambiguity about which copy is authoritative
 - **Your toys, my toys, our table** — Private areas for each party plus a mutual area with per-item, contract-governed sharing
 - **Doctor, employer, transaction** — How the namespace model works for healthcare, employment, and buyer-seller relationships
+
+**The Contract** covers:
+
+- **Not a privacy policy** — Why connection contracts are programs enforced by your vault, not promises made by a company
+- **Field access tiers** — Required, optional, on-demand, and consent: four levels of data access, each enforced differently
+- **Per-field retention** — Session, time-limited, or until-revoked retention tracked and enforced per field, not per contract
+- **Enforcement checklist** — Every request checked against contract version, field, tier, retention, and rate limits before data is served
+- **Contract updates** — Clear diffs of added, removed, and changed terms: accept the new version or disconnect immediately
+- **Peer vs. service connections** — Mutual lightweight consent for friends; formal published contracts for services
 
 ## Author
 
