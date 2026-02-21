@@ -82,24 +82,11 @@ You just stopped one step short.
 Here is the progression, and notice how each step is a natural extension
 of the one before it:
 
-  ------------------ ------------------ ------------------ ------------------
-  **Era**            **Core principle** **What it trusts** **What breaks it**
-
-  **Perimeter        Trust everything   The network        One breach past
-  security**         inside the         boundary           the perimeter
-                     firewall                              exposes everything
-
-  **Zero-trust**     Trust nothing,     The identity       A compromised
-                     verify everything  provider and the   server or insider
-                                        server holding the still sees
-                                        data               plaintext
-
-  **Zero-knowledge   Trust nothing,     The math and the   A breakthrough in
-  trust**            verify everything, hardware           the underlying
-                     and the provider                      cryptography or
-                     never sees                            hardware isolation
-                     plaintext                             
-  ------------------ ------------------ ------------------ ------------------
+| **Era** | **Core principle** | **What it trusts** | **What breaks it** |
+|---|---|---|---|
+| **Perimeter security** | Trust everything inside the firewall | The network boundary | One breach past the perimeter exposes everything |
+| **Zero-trust** | Trust nothing, verify everything | The identity provider and the server holding the data | A compromised server or insider still sees plaintext |
+| **Zero-knowledge trust** | Trust nothing, verify everything, and the provider never sees plaintext | The math and the hardware | A breakthrough in the underlying cryptography or hardware isolation |
 
 Each step does not reject the previous one. It extends it. Zero-trust
 did not say firewalls are useless. It said firewalls are not enough.
@@ -248,37 +235,13 @@ Once user secrets do not live in your databases, compliance changes
 character. It becomes something the architecture provides rather than
 something humans enforce.
 
-  ----------------------- ----------------------- -----------------------
-  **Requirement**         **Centralized           **ZKT approach**
-                          approach**              
-
-  **GDPR right to         Search every system,    User revokes vault
-  deletion**              every backup, every log connections; your
-                          for user data; prove    systems have no
-                          deletion                plaintext to delete
-
-  **Breach notification** Forensics to determine  Attackers accessed
-                          what was exposed;       encrypted blobs they
-                          notify potentially      cannot read;
-                          millions of users       notification obligation
-                                                  changes fundamentally
-
-  **Data portability**    Build export tools;     User grants a new
-                          negotiate with          connection to a new
-                          providers; multi-month  provider; old
-                          migrations              provider's access
-                                                  revoked
-
-  **Access auditing**     Log every employee who  No employee ever
-                          accessed user data;     accessed user data
-                          review quarterly; hope  because no employee
-                          for accuracy            ever had it
-
-  **Password rotation**   Force users to change   Credentials rotate
-                          passwords; manage reset cryptographically after
-                          flows; store new hashes every use; no user
-                                                  action required
-  ----------------------- ----------------------- -----------------------
+| **Requirement** | **Centralized approach** | **ZKT approach** |
+|---|---|---|
+| **GDPR right to deletion** | Search every system, every backup, every log for user data; prove deletion | User revokes vault connections; your systems have no plaintext to delete |
+| **Breach notification** | Forensics to determine what was exposed; notify potentially millions of users | Attackers accessed encrypted blobs they cannot read; notification obligation changes fundamentally |
+| **Data portability** | Build export tools; negotiate with providers; multi-month migrations | User grants a new connection to a new provider; old provider's access revoked |
+| **Access auditing** | Log every employee who accessed user data; review quarterly; hope for accuracy | No employee ever accessed user data because no employee ever had it |
+| **Password rotation** | Force users to change passwords; manage reset flows; store new hashes | Credentials rotate cryptographically after every use; no user action required |
 
 These are not separate improvements. They are all consequences of the
 same shift: the secrets are not in your system. Every compliance burden

@@ -69,33 +69,13 @@ delivered real value.
 The medical records example is specific, but the pattern is universal.
 Any existing system can follow the same progression.
 
-  -------------- ------------------ ------------------ ------------------
-  **System**     **Start here**     **Grow into**      **Full alignment**
-
-  **Banking**    Authentication via Transaction        User holds keys to
-                 vault connection   signing with       all financial
-                                    user's keys        records and
-                                                       credentials
-
-  **Employer     SSO through vault  Expense and        Employee controls
-  HR**                              time-off requests  all personal and
-                                    via connection     benefits data
-
-  **Crypto       Vault-based login  Transaction        User holds all
-  exchange**     and KYC            signing without    keys; exchange is
-                                    exchange holding   execution only
-                                    keys               
-
-  **Retail**     Checkout           Payment            No payment data in
-                 authentication     credentials served retailer's
-                                    from vault on      database
-                                    demand             
-
-  **AI agents**  Agent              Agent requests     Agent has zero
-                 authenticates via  credentials per    stored
-                 vault connection   task, scoped and   credentials; all
-                                    logged             access via vault
-  -------------- ------------------ ------------------ ------------------
+| **System** | **Start here** | **Grow into** | **Full alignment** |
+|---|---|---|---|
+| **Banking** | Authentication via vault connection | Transaction signing with user's keys | User holds keys to all financial records and credentials |
+| **Employer HR** | SSO through vault | Expense and time-off requests via connection | Employee controls all personal and benefits data |
+| **Crypto exchange** | Vault-based login and KYC | Transaction signing without exchange holding keys | User holds all keys; exchange is execution only |
+| **Retail** | Checkout authentication | Payment credentials served from vault on demand | No payment data in retailer's database |
+| **AI agents** | Agent authenticates via vault connection | Agent requests credentials per task, scoped and logged | Agent has zero stored credentials; all access via vault |
 
 Every row follows the same pattern. Start with authentication. Grow the
 connection. Arrive at sovereignty. The pace is different for each

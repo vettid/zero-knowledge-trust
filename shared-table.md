@@ -188,23 +188,11 @@ And each party can explicitly designate specific items as visible or
 writable to the other side. The sharing is deliberate, per-item, not
 all-or-nothing.
 
-  ----------------- ----------------- ----------------- -----------------
-  **Area**          **Who can read**  **Who can write** **Example**
-
-  **Your side**     You only          You only          Your draft notes,
-                                                        your internal
-                                                        references
-
-  **Their side**    They only         They only         Their internal
-                                                        status flags,
-                                                        their processing
-                                                        notes
-
-  **Mutual**        Both parties      Both parties (per Signed documents,
-                                      contract)         agreed terms,
-                                                        shared project
-                                                        status
-  ----------------- ----------------- ----------------- -----------------
+| **Area** | **Who can read** | **Who can write** | **Example** |
+|---|---|---|---|
+| **Your side** | You only | You only | Your draft notes, your internal references |
+| **Their side** | They only | They only | Their internal status flags, their processing notes |
+| **Mutual** | Both parties | Both parties (per contract) | Signed documents, agreed terms, shared project status |
 
 You can move something from your side to the mutual area whenever you
 want. The other party can do the same. But nothing appears in the mutual
@@ -313,24 +301,12 @@ same data, not two divergent copies.
 
 The vault's database tells the story of your digital life in namespaces.
 
-  ----------------- -------------------------- --------------------------
-  **Namespace**     **What it holds**          **Who can access**
-
-  **Personal**      Your identity, keys,       You only. No connection
-                    credentials, personal data can see in.
-
-  **System**        Vault configuration, key   Vault manager only.
-                    material, session state,   Housekeeping.
-                    audit logs                 
-
-  **Connection      Keys, pointers,            You and that connection,
-  (per)**           credentials, metadata for  per contract terms.
-                    that relationship          
-
-  **Shared          Each side's private area   Both parties, per
-  sandbox**         plus a mutual area for     contract. Creator hosts.
-                    collaboration              
-  ----------------- -------------------------- --------------------------
+| **Namespace** | **What it holds** | **Who can access** |
+|---|---|---|
+| **Personal** | Your identity, keys, credentials, personal data | You only. No connection can see in. |
+| **System** | Vault configuration, key material, session state, audit logs | Vault manager only. Housekeeping. |
+| **Connection (per)** | Keys, pointers, credentials, metadata for that relationship | You and that connection, per contract terms. |
+| **Shared sandbox** | Each side's private area plus a mutual area for collaboration | Both parties, per contract. Creator hosts. |
 
 Each layer builds on the one before it. The personal namespace is the
 foundation. The system namespace is the plumbing. Connection namespaces

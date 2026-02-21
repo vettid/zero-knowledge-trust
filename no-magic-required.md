@@ -46,49 +46,16 @@ but any ZKT implementation would draw from the same pool of established
 primitives. Every item on this list is a published, peer-reviewed,
 widely deployed standard. None of them were invented by VettID.
 
-  ------------------------ ------------------------ -----------------------------
-  **Primitive**            **What it does**         **Who else uses it**
-
-  **X25519**               Key exchange --- two     Signal, WhatsApp, WireGuard,
-                           parties establish a      TLS 1.3, SSH, Cloudflare
-                           shared secret without    
-                           transmitting it          
-
-  **XChaCha20-Poly1305**   Authenticated encryption Google, Cloudflare,
-                           --- encrypts data and    1Password, NordVPN, WireGuard
-                           proves it has not been   
-                           tampered with            
-
-  **Ed25519**              Digital signatures ---   SSH, Signal, Tor, Solana,
-                           proves a message came    FIDO2/WebAuthn
-                           from a specific party    
-
-  **Argon2id**             Password hashing ---     Winner of the 2015 Password
-                           makes brute force        Hashing Competition;
-                           computationally          recommended by OWASP
-                           infeasible (60 million   
-                           times slower than SHA256 
-                           on GPUs)                 
-
-  **HKDF**                 Key derivation ---       TLS 1.3, Signal Protocol,
-                           derives multiple         WireGuard
-                           purpose-specific keys    
-                           from a single secret     
-
-  **TLS 1.3**              Transport encryption --- Every HTTPS website, every
-                           secures data in transit  major browser, every cloud
-                           between devices          provider
-
-  **AWS Nitro Enclaves**   Hardware isolation ---   AWS production
-                           creates a sealed compute infrastructure, Signal
-                           environment even AWS     server-side processing
-                           cannot access            
-
-  **HMAC-SHA256**          Integrity verification   JWT, TLS, IPsec, every major
-                           --- detects any          API authentication system
-                           modification to stored   
-                           data                     
-  ------------------------ ------------------------ -----------------------------
+| **Primitive** | **What it does** | **Who else uses it** |
+|---|---|---|
+| **X25519** | Key exchange --- two parties establish a shared secret without transmitting it | Signal, WhatsApp, WireGuard, TLS 1.3, SSH, Cloudflare |
+| **XChaCha20-Poly1305** | Authenticated encryption --- encrypts data and proves it has not been tampered with | Google, Cloudflare, 1Password, NordVPN, WireGuard |
+| **Ed25519** | Digital signatures --- proves a message came from a specific party | SSH, Signal, Tor, Solana, FIDO2/WebAuthn |
+| **Argon2id** | Password hashing --- makes brute force computationally infeasible (60 million times slower than SHA256 on GPUs) | Winner of the 2015 Password Hashing Competition; recommended by OWASP |
+| **HKDF** | Key derivation --- derives multiple purpose-specific keys from a single secret | TLS 1.3, Signal Protocol, WireGuard |
+| **TLS 1.3** | Transport encryption --- secures data in transit between devices | Every HTTPS website, every major browser, every cloud provider |
+| **AWS Nitro Enclaves** | Hardware isolation --- creates a sealed compute environment even AWS cannot access | AWS production infrastructure, Signal server-side processing |
+| **HMAC-SHA256** | Integrity verification --- detects any modification to stored data | JWT, TLS, IPsec, every major API authentication system |
 
 That is the complete list. There is no secret ingredient. Every
 algorithm, every protocol, every hardware component is published,
@@ -236,25 +203,11 @@ different layer. They are not interchangeable.
 > even if an attacker intercepts the encrypted hash, they cannot replay
 > it.
 
-  -------------- ------------------ ------------------ ------------------
-                 **Vault PIN**      **Credential       **Why both?**
-                                    Password**         
-
-  **Protects**   Vault storage (DEK Operation          Compromising one
-                 derivation)        authorization      does not
-                                                       compromise the
-                                                       other
-
-  **When used**  Each session (app  Each sensitive     PIN is
-                 open)              operation          convenience +
-                                                       security; password
-                                                       is per-action gate
-
-  **Verified     Crypto failure     Hash comparison    PIN verified by
-  by**           (wrong DEK =       (Argon2id)         hardware; password
-                 decryption fails)                     verified by
-                                                       software
-  -------------- ------------------ ------------------ ------------------
+| | **Vault PIN** | **Credential Password** | **Why both?** |
+|---|---|---|---|
+| **Protects** | Vault storage (DEK derivation) | Operation authorization | Compromising one does not compromise the other |
+| **When used** | Each session (app open) | Each sensitive operation | PIN is convenience + security; password is per-action gate |
+| **Verified by** | Crypto failure (wrong DEK = decryption fails) | Hash comparison (Argon2id) | PIN verified by hardware; password verified by software |
 
 **What happens when you use a secret**
 
@@ -403,24 +356,12 @@ news story.
 ZKT's claim is actually more modest than the current model's implicit
 claim.
 
-  ----------------------------------- -----------------------------------
-  **Current model claims**            **ZKT claims**
-
-  Hundreds of employees with database The hardware enclave is isolated
-  access will never make a mistake or and the math is correct
-  act maliciously                     
-
-  Every server will remain            Even a compromised server sees only
-  uncompromised indefinitely          encrypted blobs it cannot read
-
-  Security policies will be followed  Architectural properties hold
-  perfectly by every person in every  regardless of who follows what
-  organization                        policy
-
-  Bearer tokens will not be           Credentials change after every use;
-  intercepted or stolen               stolen credentials decrypt with
-                                      dead keys
-  ----------------------------------- -----------------------------------
+| **Current model claims** | **ZKT claims** |
+|---|---|
+| Hundreds of employees with database access will never make a mistake or act maliciously | The hardware enclave is isolated and the math is correct |
+| Every server will remain uncompromised indefinitely | Even a compromised server sees only encrypted blobs it cannot read |
+| Security policies will be followed perfectly by every person in every organization | Architectural properties hold regardless of who follows what policy |
+| Bearer tokens will not be intercepted or stolen | Credentials change after every use; stolen credentials decrypt with dead keys |
 
 The current model requires trusting thousands of people and systems to
 behave correctly, indefinitely. ZKT requires trusting published
