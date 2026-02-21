@@ -76,6 +76,12 @@ Also available as a [PDF](one-simple-trick.pdf) or [Word document](one-simple-tr
 
 Also available as a [PDF](vine-mechanics.pdf) or [Word document](vine-mechanics.docx) for offline reading.
 
+**[Read Branches and Gateways (Markdown)](branches-and-gateways.md)**
+
+*Friends, services, employers, and the connections between them.*
+
+Also available as a [PDF](branches-and-gateways.pdf) or [Word document](branches-and-gateways.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -171,6 +177,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Who I am, what I have, what I can do** — The three things you see when you look at your vault: identity, inventory, and capabilities per connection
 - **Branches keep it manageable** — How organizing your vine into financial, professional, personal, and healthcare branches keeps the root lean
 - **The vault provider ecosystem** — Why ZKT is an open pattern that enables specialized providers for healthcare, finance, enterprise, and beyond
+
+**Branches and Gateways** covers:
+
+- **Real friends vs. online "friends"** — Why a trusted friend connects at the root while a social media contact lives behind a platform gateway
+- **Gateways and vaults** — Two ways to join the vine: lightweight gateways as on-ramps for existing services, proper vaults for hardware-isolated security
+- **The keychain** — Each service adds a ring to your keychain (keys, credentials, pointers), not a drawer in a filing cabinet
+- **Bring your own identity** — How employees connect to an employer's vault with their own identity and take it with them when they leave
+- **The long branch** — How a signing request from a legal service three hops away finds your vault through existing connections
+- **Services grow too** — How retailers, enterprises, and platforms start as gateways and graduate to full vaults as the vine connection deepens
 
 ## Author
 
