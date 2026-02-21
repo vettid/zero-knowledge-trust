@@ -100,6 +100,12 @@ Also available as a [PDF](the-contract.pdf) or [Word document](the-contract.docx
 
 Also available as a [PDF](the-nervous-system.pdf) or [Word document](the-nervous-system.docx) for offline reading.
 
+**[Read The Accidental Audit (Markdown)](the-accidental-audit.md)**
+
+*Nobody designed the audit trail. The architecture produced it.*
+
+Also available as a [PDF](the-accidental-audit.pdf) or [Word document](the-accidental-audit.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -231,6 +237,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Handlers** — Standalone executables inside the enclave for payment, signing, verification, data access, messaging, and authentication
 - **Handler manifests** — How vaults declare their capabilities so connections know what they can do before asking
 - **The interoperability standard** — What must be standardized (event format, encryption, topics, routing, contracts, handshake) vs. what providers own (handlers, database, UX)
+
+**The Accidental Audit** covers:
+
+- **The side effect** — Why the audit trail is complete by construction, not by design: no path through the vault avoids recording
+- **Anatomy of an entry** — Who asked, what they asked for, under what contract, when, what happened, and why it was denied
+- **Denials matter** — Why blocked requests are as important as approved ones: evidence that enforcement actually works
+- **The trail across connection types** — How retailers, consent fields, long branches, and contract updates each produce distinct audit patterns
+- **The log inversion** — Why the trail lives in your vault, not the service's: the entity being audited no longer controls the audit
+- **The compliance gift** — How organizations get complete, tamper-evident compliance logging as a structural property rather than an engineering effort
 
 ## Author
 
