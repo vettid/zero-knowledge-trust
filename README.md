@@ -94,6 +94,12 @@ Also available as a [PDF](shared-table.pdf) or [Word document](shared-table.docx
 
 Also available as a [PDF](the-contract.pdf) or [Word document](the-contract.docx) for offline reading.
 
+**[Read The Nervous System (Markdown)](the-nervous-system.md)**
+
+*How events flow, how handlers execute, and why the messaging layer matters.*
+
+Also available as a [PDF](the-nervous-system.pdf) or [Word document](the-nervous-system.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -216,6 +222,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Enforcement checklist** — Every request checked against contract version, field, tier, retention, and rate limits before data is served
 - **Contract updates** — Clear diffs of added, removed, and changed terms: accept the new version or disconnect immediately
 - **Peer vs. service connections** — Mutual lightweight consent for friends; formal published contracts for services
+
+**The Nervous System** covers:
+
+- **The event loop** — How the vault manager receives, validates, routes, and responds to events inside the enclave
+- **Two communication spaces** — OwnerSpace for private app-to-vault commands; MessageSpace for scoped cross-vault messaging
+- **Event flow** — Step-by-step trace of a shipping address request from service publish to encrypted response
+- **Handlers** — Standalone executables inside the enclave for payment, signing, verification, data access, messaging, and authentication
+- **Handler manifests** — How vaults declare their capabilities so connections know what they can do before asking
+- **The interoperability standard** — What must be standardized (event format, encryption, topics, routing, contracts, handshake) vs. what providers own (handlers, database, UX)
 
 ## Author
 
