@@ -23,10 +23,11 @@ vault manager reads it, determines which event handler should process
 it, and invokes that handler. A payment.request event triggers the
 payment handler. A document.sign event triggers the signing handler. An
 identity.verify event triggers the verification handler. The handlers
-are programs built and deployed by the vault provider, running inside
-the enclave alongside the vault manager. They are what make the vault
-programmable --- not just a data store, but an agent that can act on
-your behalf within the rules you have set.
+are separate executables built and deployed by the vault provider,
+living inside the enclave alongside the vault manager. Any vault manager
+can call them. They are what make the vault programmable --- not just a
+data store, but an agent that can act on your behalf within the rules
+you have set.
 
 This is also why vault providers can differentiate. The handlers are the
 capabilities. One provider builds handlers for financial operations.
