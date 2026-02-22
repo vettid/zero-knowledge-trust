@@ -106,6 +106,12 @@ Also available as a [PDF](the-nervous-system.pdf) or [Word document](the-nervous
 
 Also available as a [PDF](the-accidental-audit.pdf) or [Word document](the-accidental-audit.docx) for offline reading.
 
+**[Read The Tower (Markdown)](the-tower.md)**
+
+*The guardian, the helpers, and the key that changes shape.*
+
+Also available as a [PDF](the-tower.pdf) or [Word document](the-tower.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -246,6 +252,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The trail across connection types** — How retailers, consent fields, long branches, and contract updates each produce distinct audit patterns
 - **The log inversion** — Why the trail lives in your vault, not the service's: the entity being audited no longer controls the audit
 - **The compliance gift** — How organizations get complete, tamper-evident compliance logging as a structural property rather than an engineering effort
+
+**The Tower** covers:
+
+- **The walls** — How hardware isolation (Nitro Enclaves) creates physical boundaries that no software, administrator, or cloud provider can cross
+- **Attestation** — How the enclave's hardware proves the exact code running inside, and how your phone verifies it before every connection
+- **The guardian and helpers** — The vault manager that checks every request and the specialized handlers that do the work: signing, payments, identity, messaging
+- **The Protean Credential** — A key that changes shape after every single use, making stolen copies worthless before the attacker can use them
+- **Two-factor authentication** — PIN derives the decryption key through math (no hash to steal); password is hashed with Argon2id and protected by single-use transaction keys
+- **Backup and recovery** — Store a copy of the encrypted credential with a single action; recover with the copy, your PIN, and a genuine enclave — no seed phrases, no support tickets
 
 ## Author
 
