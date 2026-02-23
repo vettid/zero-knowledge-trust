@@ -112,6 +112,12 @@ Also available as a [PDF](the-accidental-audit.pdf) or [Word document](the-accid
 
 Also available as a [PDF](the-tower.pdf) or [Word document](the-tower.docx) for offline reading.
 
+**[Read Three Locks (Markdown)](three-locks.md)**
+
+*Not everything in the vault is equal. The guardian knows the difference.*
+
+Also available as a [PDF](three-locks.pdf) or [Word document](three-locks.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -252,6 +258,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The trail across connection types** — How retailers, consent fields, long branches, and contract updates each produce distinct audit patterns
 - **The log inversion** — Why the trail lives in your vault, not the service's: the entity being audited no longer controls the audit
 - **The compliance gift** — How organizations get complete, tamper-evident compliance logging as a structural property rather than an engineering effort
+
+**Three Locks** covers:
+
+- **The first lock: personal data** — PIN opens the vault; the contract governs who sees what; the guardian enforces it without interrupting you
+- **The second lock: secrets** — PIN plus namespace isolation and consent gating for operational material like credentials, keys, and identity documents
+- **The third lock: critical secrets** — Password required, verified inside the enclave; critical secrets live inside the Protean Credential, not the database; CEK rotates after every use
+- **The window** — A user-defined TTL that lets you perform consecutive critical operations without re-entering your password, while the protean cycle continues uninterrupted
+- **Connections can set the lock** — Services declare the sensitivity of what they provision; a bank's signing key gets the third lock, a retailer's loyalty token gets the second
+- **Three locks, one vault** — Protection proportional to risk: not every piece of data deserves the heaviest protection, but the things that matter most get the strongest lock
 
 **The Tower** covers:
 
