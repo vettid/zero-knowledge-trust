@@ -118,6 +118,18 @@ Also available as a [PDF](the-tower.pdf) or [Word document](the-tower.docx) for 
 
 Also available as a [PDF](three-locks.pdf) or [Word document](three-locks.docx) for offline reading.
 
+**[Read Building Codes (Markdown)](building-codes.md)**
+
+*The internet is the largest boom-town ever built. It is time for plumbing standards.*
+
+Also available as a [PDF](building-codes.pdf) or [Word document](building-codes.docx) for offline reading.
+
+**[Read Moving Day (Markdown)](moving-day.md)**
+
+*How you move your vault without losing your vine.*
+
+Also available as a [PDF](moving-day.pdf) or [Word document](moving-day.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -258,6 +270,26 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The trail across connection types** — How retailers, consent fields, long branches, and contract updates each produce distinct audit patterns
 - **The log inversion** — Why the trail lives in your vault, not the service's: the entity being audited no longer controls the audit
 - **The compliance gift** — How organizations get complete, tamper-evident compliance logging as a structural property rather than an engineering effort
+
+**Building Codes** covers:
+
+- **The boom-town** — Why the internet followed the same arc as every boom-town in history: explosive growth, minimal standards, real harm, overdue codes
+- **The lead pipes** — How plaintext passwords, centralized databases, third-party cookies, and unscoped tokens are the internet's lead plumbing — rational choices that turned out to be poisonous
+- **The great stink** — London did not tear down the city; it built proper sewers underneath it — the internet needs the same re-plumbing for the layer that carries secrets and identity
+- **Building codes** — A minimum standard for the plumbing, not the buildings: secrets belong to users, consent is enforced by architecture, processing happens in isolation, credentials rotate, access is auditable, providers are interchangeable
+- **The grandma test** — If your security standard requires the user to be a security expert, it is not a standard — ZKT protects people who do not understand the engineering
+- **The new pressure** — AI turns the trickle into a firehose; pipes that leaked at human speed burst at AI speed; LEASH provides building codes for agent credential handling
+- **The invitation** — Principles become building codes when a community agrees the standards are worth adopting; we do not need to agree on everything, just the plumbing
+
+**Moving Day** covers:
+
+- **The promise** — You own your digital identity only if you can leave your vault provider and take everything with you
+- **Two principles** — The provider enables portability; secrets move enclave to enclave, never exposed on devices or the network
+- **The move** — Eight steps: enroll with Provider B, connect vaults, freeze Vault A, transfer data enclave to enclave, move critical secrets credential to credential, update connections, deliver the queued events, complete
+- **What moves and what stays** — Namespaces, contracts, sandboxes, and critical secrets transfer; audit logs stay with the old guardian but can be exported or forwarded under a connection contract
+- **Rearranging furniture** — Same data, potentially different capabilities; connections see the new handler manifest and adjust; settling into a new tower
+- **Why this matters** — Portability eliminates lock-in and forces vault providers to compete on product, not on trapped data
+- **The standard makes it real** — Portability depends on the messaging standard; any two compliant vaults can transfer because they speak the same language
 
 **Three Locks** covers:
 
