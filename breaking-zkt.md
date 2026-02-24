@@ -276,11 +276,13 @@ know that now.
 > layer or a sprawling mesh of trust assumptions?
 >
 > Third, the cryptographic primitives ZKT relies on are not exotic.
-> AES-256, RSA/ECC for asymmetric operations, Argon2id for key
-> derivation, TLS 1.3 for transport --- these are battle-tested, widely
-> implemented, and well-understood. The innovation in ZKT is
-> architectural, not cryptographic. It assembles proven primitives into
-> a new configuration, rather than inventing new cryptography.
+> X25519 for key exchange, XChaCha20-Poly1305 for authenticated
+> encryption, Argon2id for key derivation, HKDF for key expansion,
+> Ed25519 for signatures, TLS 1.3 for transport --- these are
+> battle-tested, widely implemented, and well-understood. The innovation
+> in ZKT is architectural, not cryptographic. It assembles proven
+> primitives into a new configuration, rather than inventing new
+> cryptography.
 >
 > **Verdict:** *Legitimate concern managed through design. Complexity is
 > concentrated and auditable, relies on proven cryptographic primitives,
