@@ -12,6 +12,10 @@
 
 ## Read the Papers
 
+**[Download the complete collection as an eBook (EPUB)](building-codes-book.epub)** — all papers in one volume, in reading order.
+
+If you prefer to read individual papers, they are listed below in the recommended reading order.
+
 **[Read Zero-Knowledge Trust (Markdown)](zero-knowledge-trust.md)**
 
 Also available as a [PDF](zero-knowledge-trust.pdf) or [Word document](zero-knowledge-trust.docx) for offline reading.
