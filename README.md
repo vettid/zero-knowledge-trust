@@ -134,6 +134,12 @@ Also available as a [PDF](building-codes.pdf) or [Word document](building-codes.
 
 Also available as a [PDF](moving-day.pdf) or [Word document](moving-day.docx) for offline reading.
 
+**[Read Non-Custodial Services (Markdown)](non-custodial-services.md)**
+
+*Non-Custodial Services as a third architectural model — beyond centralized and decentralized.*
+
+Also available as a [PDF](non-custodial-services.pdf) or [Word document](non-custodial-services.docx) for offline reading.
+
 ## About
 
 Zero-Knowledge Trust is a security model in which trust is derived from the mathematical certainty that no party—including the platform itself—can access, observe, or reconstruct the secrets it manages. It is not the parallel deployment of zero trust and zero knowledge. It is their architectural fusion into a single model where verification and privacy are inseparable.
@@ -294,6 +300,15 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **Rearranging furniture** — Same data, potentially different capabilities; connections see the new handler manifest and adjust; settling into a new tower
 - **Why this matters** — Portability eliminates lock-in and forces vault providers to compete on product, not on trapped data
 - **The standard makes it real** — Portability depends on the messaging standard; any two compliant vaults can transfer because they speak the same language
+
+**Non-Custodial Services** covers:
+
+- **The inadequacy of the binary** — Why the centralized/decentralized axis conflates two independently variable dimensions: infrastructure distribution and custody distribution
+- **A revised two-axis taxonomy** — Four quadrants: custodial centralized, non-custodial centralized, custodial decentralized, and non-custodial decentralized
+- **Technical prerequisites** — Hardware-enforced isolation, remote attestation, user-controlled key derivation, ephemeral plaintext, and auditable execution
+- **ZKT as reference implementation** — How VettID and LEASH exemplify the non-custodial services model in production
+- **Implications** — Why identity standards, procurement frameworks, enterprise security architectures, and the decentralization debate all need this third category
+- **The third way** — Centralized infrastructure with decentralized control is not a compromise; it is a distinct architectural model that existing taxonomies cannot name
 
 **Three Locks** covers:
 
