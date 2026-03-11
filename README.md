@@ -10,6 +10,10 @@
 >
 > *Zero-Knowledge Trust says: "Verify everything. Expose nothing. Trust no one—not even the platform."*
 
+## Slide Deck
+
+**[View the ZKT slide deck (PDF)](zkt-slides.pdf)** — a visual overview of Zero-Knowledge Trust in 11 slides covering data sovereignty, zero direct access, the vine model, and LEASH.
+
 ## Read the Papers
 
 **[Download the complete collection as an eBook (EPUB)](building-codes-book.epub)** — all papers in one volume, in reading order.
