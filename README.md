@@ -126,12 +126,6 @@ Also available as a [PDF](the-tower.pdf) or [Word document](the-tower.docx) for 
 
 Also available as a [PDF](three-locks.pdf) or [Word document](three-locks.docx) for offline reading.
 
-**[Read Building Codes (Markdown)](building-codes.md)**
-
-*The internet is the largest boom-town ever built. It is time for plumbing standards.*
-
-Also available as a [PDF](building-codes.pdf) or [Word document](building-codes.docx) for offline reading.
-
 **[Read Moving Day (Markdown)](moving-day.md)**
 
 *How you move your vault without losing your vine.*
@@ -143,6 +137,18 @@ Also available as a [PDF](moving-day.pdf) or [Word document](moving-day.docx) fo
 *Non-Custodial Services as a third architectural model — beyond centralized and decentralized.*
 
 Also available as a [PDF](non-custodial-services.pdf) or [Word document](non-custodial-services.docx) for offline reading.
+
+**[Read The Crystal Ball (Markdown)](crystal-ball.md)**
+
+*Where the current path in digital security ends — and what to do before it does.*
+
+Also available as a [PDF](crystal-ball.pdf) or [Word document](crystal-ball.docx) for offline reading.
+
+**[Read Building Codes (Markdown)](building-codes.md)**
+
+*The internet is the largest boom-town ever built. It is time for plumbing standards.*
+
+Also available as a [PDF](building-codes.pdf) or [Word document](building-codes.docx) for offline reading.
 
 ## About
 
@@ -285,16 +291,6 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The log inversion** — Why the trail lives in your vault, not the service's: the entity being audited no longer controls the audit
 - **The compliance gift** — How organizations get complete, tamper-evident compliance logging as a structural property rather than an engineering effort
 
-**Building Codes** covers:
-
-- **The boom-town** — Why the internet followed the same arc as every boom-town in history: explosive growth, minimal standards, real harm, overdue codes
-- **The lead pipes** — How plaintext passwords, centralized databases, third-party cookies, and unscoped tokens are the internet's lead plumbing — rational choices that turned out to be poisonous
-- **The great stink** — London did not tear down the city; it built proper sewers underneath it — the internet needs the same re-plumbing for the layer that carries secrets and identity
-- **Building codes** — A minimum standard for the plumbing, not the buildings: secrets belong to users, consent is enforced by architecture, processing happens in isolation, credentials rotate, access is auditable, providers are interchangeable
-- **The grandma test** — If your security standard requires the user to be a security expert, it is not a standard — ZKT protects people who do not understand the engineering
-- **The new pressure** — AI turns the trickle into a firehose; pipes that leaked at human speed burst at AI speed; LEASH provides building codes for agent credential handling
-- **The invitation** — Principles become building codes when a community agrees the standards are worth adopting; we do not need to agree on everything, just the plumbing
-
 **Moving Day** covers:
 
 - **The promise** — You own your digital identity only if you can leave your vault provider and take everything with you
@@ -331,6 +327,25 @@ Zero-Knowledge Trust is a security model in which trust is derived from the math
 - **The Protean Credential** — A key that changes shape after every single use, making stolen copies worthless before the attacker can use them
 - **Two-factor authentication** — PIN derives the decryption key through math (no hash to steal); password is hashed with Argon2id and protected by single-use transaction keys
 - **Backup and recovery** — Store a copy of the encrypted credential with a single action; recover with the copy, your PIN, and a genuine enclave — no seed phrases, no support tickets
+
+**The Crystal Ball** covers:
+
+- **Three converging failures** — AI will access everything it can reach, centralized custodians are being squeezed against users, and the complexity trap guarantees catastrophic failure
+- **The common root** — All three failures trace to one design decision: treating users as subjects of security rather than agents of their own security
+- **The objections, answered** — Why "ordinary people can't manage their own security" is a design failure laundered into a justification, and why the Web3 comparison is a false pattern-match
+- **The alternative** — Decentralize risk, design for the user, and move liability to the party with vested interest
+- **The timing constraint** — Harvest-now-decrypt-later means every year of continued centralized aggregation adds to a permanent record being assembled against a future capability
+- **The call** — The tools are built, the architecture is understood, the path is clear — what remains is a decision
+
+**Building Codes** covers:
+
+- **The boom-town** — Why the internet followed the same arc as every boom-town in history: explosive growth, minimal standards, real harm, overdue codes
+- **The lead pipes** — How plaintext passwords, centralized databases, third-party cookies, and unscoped tokens are the internet's lead plumbing — rational choices that turned out to be poisonous
+- **The great stink** — London did not tear down the city; it built proper sewers underneath it — the internet needs the same re-plumbing for the layer that carries secrets and identity
+- **Building codes** — A minimum standard for the plumbing, not the buildings: secrets belong to users, consent is enforced by architecture, processing happens in isolation, credentials rotate, access is auditable, providers are interchangeable
+- **The grandma test** — If your security standard requires the user to be a security expert, it is not a standard — ZKT protects people who do not understand the engineering
+- **The new pressure** — AI turns the trickle into a firehose; pipes that leaked at human speed burst at AI speed; LEASH provides building codes for agent credential handling
+- **The invitation** — Principles become building codes when a community agrees the standards are worth adopting; we do not need to agree on everything, just the plumbing
 
 ## Author
 
